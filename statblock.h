@@ -1,5 +1,6 @@
 #pragma once
-#include "stattypes.h"
+#include <cstdint>
+typedef std::uint16_t stattype;
 
 class StatBlock
 {
