@@ -23,4 +23,11 @@ public:
 
     stattype getAD() { return AD; }
     stattype getAP() { return AP; }
+
+protected:
+    void increaseStats(stattype s, stattype i)
+    {
+        AD += s;
+        AP += i;
+    }
 };
