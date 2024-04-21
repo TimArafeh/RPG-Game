@@ -4,12 +4,12 @@
 typedef std::uint64_t exptype;
 typedef std::uint16_t leveltype;
 
-class LevelSystem
+class PlayerCharacterDelegate
 {
 public:
     static const exptype LEVEL2AT = 100u;
 
-    LevelSystem()
+    PlayerCharacterDelegate()
     {
         CurrentLevel = 1u;
         CurrentEXP = 0u;
