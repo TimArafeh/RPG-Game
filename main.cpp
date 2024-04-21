@@ -9,7 +9,7 @@ int main()
     Assassin zed;
 
     /*
-    std::cout << "Bruiser\n"
+    std::cout << "Darius\n"
               << "-MaxHP: " << darius.getMaxHp() << '\n'
               << "-AD: " << darius.getAD() << '\n'
               << "-AP: " << darius.getAP() << '\n';
@@ -27,12 +27,12 @@ int main()
     }
 
     /*
-    std::cout << "Support\n"
+    std::cout << "Janna\n"
               << "-MaxHP: " << janna.getMaxHp() << '\n'
               << "-AD: " << janna.getAD() << '\n'
               << "-AP: " << janna.getAP() << '\n';
 
-    std::cout << "Assassin\n"
+    std::cout << "Zed\n"
               << "-MaxHP: " << zed.getMaxHp() << '\n'
               << "-AD: " << zed.getAD() << '\n'
               << "-AP: " << zed.getAP() << '\n';
