@@ -15,7 +15,7 @@ public:
         AP = (stattype)1u;
     }
 
-    StatBlock(stattype s, stattype i)
+    explicit StatBlock(stattype s, stattype i)
     {
         AD = s;
         AP = i;
